@@ -1,0 +1,193 @@
+.buyFromUs {
+  padding: 0 0 60px 0;
+  color: var(--color-black);
+}
+
+.buyFromUs__title {
+  margin: 0 0 30px 0;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.buyFromUs__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+}
+
+/* .buyFromUs1 {
+} */
+
+.buyFromUs1__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.buyFromUs1__item {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  width: 575px;
+  height: 220px;
+  border: none;
+  border-radius: 20px;
+  background-color: var(--color-greyscale);
+}
+
+.buyFromUs1__title {
+  margin: 30px 0 0 30px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/* .buyFromUs2 {
+  
+} */
+
+.buyFromUs2__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 20px;
+}
+
+.buyFromUs2__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  width: 375px;
+  height: 220px;
+  border: none;
+  border-radius: 20px;
+  background-color: var(--color-greyscale);
+}
+
+.buyFromUs2__title {
+  margin: 30px 0 0 30px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.buyFromUs__img {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  /* width: 260px; */
+  height: 210px;
+}
+
+.buyFromUs__image {
+  width: 150px;
+  height: 150px;
+}
+
+.buyFromUs__image-auto {
+  width: 273px;
+  height: 126px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.buyFromUs2__button {
+  margin: 40px auto 0 auto;
+  width: 535px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1200px) {
+  .buyFromUs1__list {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .buyFromUs1__item {
+    width: 575px;
+  }
+
+  .buyFromUs2__item {
+    width: 575px;
+  }
+
+  .buyFromUs2__list {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .buyFromUs1__item {
+    width: 535px;
+  }
+
+  .buyFromUs2__item {
+    width: 535px;
+  }
+}
+
+@media (max-width: 576px) {
+  .buyFromUs__image {
+    width: 100px;
+    height: 100px;
+  }
+
+  .buyFromUs__image-auto {
+    width: 177px;
+    height: 82px;
+  }
+
+  .buyFromUs1__item {
+    width: 435px;
+  }
+
+  .buyFromUs2__item {
+    width: 435px;
+  }
+
+  .buyFromUs1__title {
+    margin: 30px 0 0 20px;
+    font-size: 18px;
+  }
+  .buyFromUs2__title {
+    margin: 30px 0 0 20px;
+    font-size: 18px;
+  }
+
+  .buyFromUs2__button {
+    margin: 20px auto 0 auto;
+    width: 435px;
+  }
+}
+
+@media (max-width: 480px) {
+  .buyFromUs1__item {
+    width: 345px;
+  }
+
+  .buyFromUs2__item {
+    width: 345px;
+  }
+  .buyFromUs2__button {
+    width: 345px;
+  }
+}
+
+@media (max-width: 388px) {
+  .buyFromUs1__item {
+    width: 310px;
+  }
+
+  .buyFromUs2__item {
+    width: 310px;
+  }
+  .buyFromUs2__button {
+    width: 310px;
+  }
+}

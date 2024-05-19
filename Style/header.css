@@ -1,0 +1,145 @@
+.header {
+  padding: 5px 0 0 0;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 30px;
+  padding: 0 0 10px 0;
+}
+
+.header__logo {
+  max-width: 265px;
+  height: 62px;
+  object-fit: fill;
+}
+
+.header__address {
+  width: 650px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 30px;
+}
+
+.header__location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 10px;
+}
+
+.header__number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 10px;
+}
+
+.header__location-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.header__location-info {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--color-grey);
+}
+
+.header__number-icon {
+  margin: 4px 0 0 0;
+  width: 24px;
+  height: 24px;
+  fill: none;
+}
+
+.header__number {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--color-black);
+}
+
+@media (max-width: 1200px) {
+  .header__logo {
+    width: 220px;
+    height: 55px;
+    object-fit: fill;
+  }
+
+  .button {
+    width: 150px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 992px) {
+  .header__logo {
+    width: 180px;
+    height: 45px;
+    object-fit: fill;
+  }
+  .header__location-icon {
+    display: none;
+  }
+  .header__number {
+    gap: 0 5px;
+  }
+
+  .header__address {
+    gap: 0 15px;
+  }
+
+  .header__location-info {
+    font-size: 13.3px;
+  }
+
+  .header__number-link {
+    font-size: 15.6px;
+  }
+
+  .header__link {
+    font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+  .header {
+    box-shadow: 0 0 10px 5px rgb(228, 225, 225);
+  }
+
+  .header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 30px;
+  }
+
+  .header__address {
+    justify-content: end;
+  }
+  .header__search {
+    display: none;
+  }
+  .button {
+    display: none;
+  }
+  .header__location {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  .header__logo {
+    width: 170px;
+    height: 35px;
+    object-fit: fill;
+  }
+
+  .header__number-link {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+}

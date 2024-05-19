@@ -1,0 +1,404 @@
+.car__info {
+  padding: 40px 0 50px 0;
+}
+
+.car__info-buttons {
+  background-color: var(--color-greyscale);
+}
+
+.car__info-buttons-wrapper {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 80px;
+  gap: 0 30px;
+}
+
+.car__info-button {
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--color-black);
+  background-color: var(--color-greyscale);
+  padding: 0;
+}
+
+.selected {
+  color: var(--color-red);
+}
+
+/* .tab-content {
+} */
+
+.car__info-equipment {
+  padding: 30px 0 0 0;
+}
+
+.car__info-equipment-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+
+  gap: 20px;
+}
+
+.car__info-equipment-information {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 10px;
+}
+
+.car__info-equipment-information-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--color-black);
+}
+
+.car__info-equipment-information-block {
+  width: 100%;
+  max-width: 1160px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.car__info-equipment-information-block-title {
+  width: 170px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+.car__info-equipment-information-block-title-checkbox {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  border: 1px #caccd2 solid;
+  background-color: #caccd2;
+}
+
+.car__info-equipment-information-block-title-title {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--color-black);
+}
+
+.car__info-equipment-information-block-title-swaper {
+  border: none;
+}
+
+/* .car__info-equipment-information-block-title-option {
+} */
+
+.car__info-equipment-information-block-decription {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.car__info-equipment-information-block-decription-text {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--color-grey);
+}
+
+.car__info-equipment-information-block-bay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.car__info-equipment-information-block-bay-decription {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--color-blue);
+}
+
+.car__info-equipment-information-block-bay-decription > span {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--color-red);
+}
+
+.car__info-equipment-information-block-bay-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.car__info-equipment-information-block-bay-credit {
+  width: 120px;
+  height: 45px;
+  border: 1px var(--color-red) solid;
+  border-radius: 70px;
+  background-color: var(--color-red);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--color-white);
+  transition: all 0.5s ease;
+}
+
+.car__info-equipment-information-block-bay-credit:hover {
+  color: var(--color-black);
+  background-color: var(--color-white);
+  cursor: pointer;
+}
+
+.car__info-equipment-information-block-bay-trade {
+  width: 190px;
+  height: 45px;
+  border: 1px var(--color-blue) solid;
+  border-radius: 70px;
+  background-color: var(--color-blue);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--color-white);
+  transition: all 0.5s ease;
+}
+
+.car__info-equipment-information-block-bay-trade:hover {
+  color: var(--color-black);
+  background-color: var(--color-white);
+  cursor: pointer;
+}
+
+.hr {
+  width: 100%;
+  height: 1px;
+  background-color: #e0e1e7;
+  color: #e0e1e7;
+  border: none;
+  margin: 0 auto;
+}
+
+.hr1 {
+  width: 100%;
+  height: 1px;
+  background-color: #e0e1e7;
+  color: #e0e1e7;
+  border: none;
+  margin: 0 auto;
+}
+
+/* .tab-content {
+} */
+
+.car__info-characteristics {
+  padding: 30px 0 0 0;
+}
+
+.car__info-characteristics-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 30px 0;
+}
+
+.car__info-characteristics-information {
+  width: 100%;
+}
+
+.car__info-characteristics-information-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 10px;
+  /* padding: 0 0 0 20px; */
+}
+
+.car__info-characteristics-information-title {
+  padding: 0 0 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+  height: 50px;
+  background-color: var(--color-greyscale);
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--color-black);
+}
+
+.car__info-characteristics-information-basic {
+  padding: 0 0 0 20px;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 50px;
+}
+
+.car__info-characteristics-information-basic-decription {
+  display: flex;
+  flex-direction: column;
+
+  gap: 10px 0;
+  width: 100%;
+}
+
+.car__info-characteristics-information-basic-decription-list {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 50px;
+}
+
+.car__info-characteristics-information-basic-decription-item {
+  width: 500px;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--color-fo-grey);
+}
+
+.car__info-characteristics-information-basic-subdecription-item {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--color-blue);
+}
+
+@media (max-width: 992px) {
+  .car__info-equipment-information-block-title {
+    padding: 0 0 100px 0;
+    /* align-items: start; */
+  }
+
+  .car__info-equipment-information {
+    gap: 20px;
+  }
+
+  .car__info-equipment-information-block {
+    height: 120px;
+  }
+
+  .car__info-equipment-information-block-decription {
+    display: none;
+  }
+
+  .car__info-equipment-information-block-bay {
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: start;
+  }
+
+  .car__info-equipment-information-block-bay-buttons {
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    gap: 20px;
+  }
+  .car__info-equipment-information-block-bay-credit {
+    height: 35px;
+  }
+  .car__info-equipment-information-block-bay-trade {
+    height: 35px;
+  }
+
+  .car__info-characteristics-information-basic-subdecription-item {
+    width: 120px;
+  }
+}
+
+@media (max-width: 768px) {
+  .car__info-characteristics-information-basic {
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 50px;
+  }
+
+  .hr {
+    display: none;
+  }
+
+  .car__info-characteristics-information-basic-decription-item {
+    width: 350px;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--color-fo-grey);
+  }
+}
+
+@media (max-width: 576px) {
+  .cantainer__padding {
+    padding: 0 10px;
+  }
+
+  .car__info-characteristics-information-basic-decription-item {
+    width: 190px;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--color-fo-grey);
+  }
+
+  .car__info-characteristics-information-basic-subdecription-item {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--color-blue);
+  }
+
+  .car__info-equipment-information-block-title {
+    width: 30px;
+  }
+
+  .car__info-equipment-information-block-bay-decription {
+    text-align: end;
+    font-size: 12px;
+  }
+
+  .car__info-equipment-information-block-bay-decription > span {
+    font-size: 18px;
+  }
+
+  .car__info-buttons-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 80px;
+  }
+
+  .car__info-button {
+    font-size: 18px;
+  }
+
+  .car__info-equipment-information-block-bay-credit {
+    width: 100px;
+    height: 35px;
+
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  .car__info-equipment-information-block-bay-trade {
+    width: 150px;
+    height: 35px;
+
+    font-size: 12px;
+    font-weight: 700;
+  }
+}
+
+@media (max-width: 450px) {
+  .car__info-characteristics-information-basic-decription-list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+  }
+}

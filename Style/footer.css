@@ -1,0 +1,152 @@
+.footer__bottom {
+  padding: 30px 0 30px 0;
+  background-color: var(--bg-color-footer);
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 30px;
+  padding: 0 0 10px 0;
+}
+
+.AVTO{
+  color: white;
+  font-size: 20px;
+}
+
+.footer__logo {
+  width: 265px;
+  height: 62px;
+  object-fit: fill;
+}
+
+.footer__address {
+  width: 650px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.footer__location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 10px;
+}
+
+.footer__location-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.footer__location-info {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--color-white);
+}
+
+.footer__number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 10px;
+  color: var(--color-white);
+}
+
+.footer__number-icon {
+  margin: 7px 0 0 0;
+  width: 24px;
+  height: 28px;
+  fill: none;
+}
+
+.footer__number-link {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--color-white);
+}
+
+.footer__info-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 15px;
+}
+
+.footer__list-item {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--color-white);
+}
+
+@media (max-width: 1200px) {
+  .footer__logo {
+    width: 220px;
+    height: 55px;
+    object-fit: fill;
+  }
+
+  .button-size {
+    width: 150px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 992px) {
+  .footer__logo {
+    width: 180px;
+    height: 45px;
+    object-fit: fill;
+  }
+
+  .footer__number {
+    gap: 0 5px;
+  }
+
+  .footer__address {
+    gap: 15px;
+  }
+
+  .footer__location-info {
+    font-size: 13.3px;
+  }
+
+  .footer__number-link {
+    font-size: 15.6px;
+  }
+
+  .footer__link {
+    font-size: 14px;
+  }
+}
+
+/* .footer__info {
+
+} */
+
+@media (max-width: 768px) {
+  .footer__wrapper {
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: 15px 0;
+  }
+  .footer__address {
+    width: 300px;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+  }
+
+  .footer__location-info {
+    font-size: 14px;
+  }
+
+  .footer__number-link {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapper">
+          <a href="main.html">
+            Автоцентр <br> Проектная работа
+          </a>
+          <address class="header__address">
+            <div class="header__location">
+              <svg class="header__location-icon">
+                <use href="../Assets/sprites.svg#header__location-icon"></use>
+              </svg>
+              <p class="header__location-info">
+                г. Москва, Кронштвдский бульвар 37Б
+              </p>
+            </div>
+
+            <div class="header__number">
+              <a href="tel:+78122238009">
+                <svg class="header__number-icon">
+                  <use href="../Assets/sprites.svg#header__number-icon"></use>
+                </svg>
+              </a>
+
+              <a class="header__number-link" href="tel:+78122238009"
+                >+7 (928) 862-72-39</a
+              >
+            </div>
+          </address>
+
+          <button class="button modal-btn" type="button">
+            Обратный звонок
+          </button>
+
+          <div id="header__div">
+            <svg id="header__menu-icon">
+              <use href="../Assets/sprites.svg#burger-icon"></use>
+            </svg>
+          </div>
+
+          <nav id="mobile__nav">
+            <ul class="mobile__list">
+          
+              <li class="mobile__item">
+                <a href="stock.html" class="mobile__link">Акции</a>
+              </li>
+              <li class="mobile__item">
+                <a href="#" class="mobile__link">Автокредит</a>
+              </li>
+              <li class="mobile__item">
+                <a href="contacts.html" class="mobile__link">Контакты</a>
+              </li>
+
+              <li class="mobile__item">
+                <button class="mobile__button modal-btn" type="button">
+                  Обратный звонок
+                </button>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <div class="search">
+        <div class="container">
+          <nav class="search__nav">
+            <ul class="search__list">
+              
+              <li class="search__item">
+                <a href="stock.html" class="search__link">Акции</a>
+              </li>
+              <li class="search__item">
+                <a href="#" class="search__link">Автокредит</a>
+              </li>
+              <li class="search__item">
+                <a href="contacts.html" class="search__link">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="about about__company-catalog">
+        <div class="container">
+          <div class="about__company">
+            <ul class="about__company-list">
+              <li class="about__company-item">
+                <img
+                  class="about__company-image"
+                  src="../Assets/images/autoIcon/Changan.png"
+                  alt="Changan"
+                />
+                <p class="about__company-name">Changan</p>
+              </li>
+              <li class="about__company-item">
+                <img
+                  class="about__company-image"
+                  src="../Assets/images/autoIcon/Exeed.png"
+                  alt="Exeed"
+                />
+                <p class="about__company-name">Exeed</p>
+              </li>
+              <li class="about__company-item">
+                <img
+                  class="about__company-image"
+                  src="../Assets/images/autoIcon/Chery.png"
+                  alt="Chery"
+                />
+                <p class="about__company-name">Chery</p>
+              </li>
+              <li class="about__company-item">
+                <img
+                  class="about__company-image"
+                  src="../Assets/images/autoIcon/Dongfeng.png"
+                  alt="Dongfeng"
+                />
+                <p class="about__company-name">Dongfeng</p>
+              </li>
+              <li class="about__company-item">
+                <img
+                  class="about__company-image"
+                  src="../Assets/images/autoIcon/Geely.png"
+                  alt="Geely"
+                />
+                <p class="about__company-name">Geely</p>
+              </li>
+              <li class="about__company-item">
+                <img
+                  class="about__company-image"
+                  src="../Assets/images/autoIcon/Haval.png"
+                  alt="Haval"
+                />
+                <p class="about__company-name">Haval</p>
+              </li>
+              <li class="about__company-item">
+                <img
+                  class="about__company-image"
+                  src="../Assets/images/autoIcon/Hyundai.png"
+                  alt="Hyundai"
+                />
+                <p class="about__company-name">Hyundai</p>
+              </li>
+              <li class="about__company-item">
+                <img
+                  class="about__company-image"
+                  src="../Assets/images/autoIcon/Jac.png"
+                  alt="Jac"
+                />
+                <p class="about__company-name">Jac</p>
+              </li>
+              <li class="about__company-item">
+                <img
+                  class="about__company-image"
+                  src="../Assets/images/autoIcon/GAC.png"
+                  alt="GAC"
+                />
+                <p class="about__company-name">GAC</p>
+              </li>
+              <li class="about__company-item">
+                <img
+                  class="about__company-image"
+                  src="../Assets/images/autoIcon/KIA.png"
+                  alt="KIA"
+                />
+                <p class="about__company-name">KIA</p>
+              </li>
+              <li class="about__company-item">
+                <img
+                  class="about__company-image"
+                  src="../Assets/images/autoIcon/Lada.png"
+                  alt="Lada"
+                />
+                <p class="about__company-name">Lada</p>
+              </li>
+              <li class="about__company-item">
+                <img
+                  class="about__company-image"
+                  src="../Assets/images/autoIcon/Lifan.png"
+                  alt="Lifan"
+                />
+                <p class="about__company-name">Lifan</p>
+              </li>
+
+              <li class="about__company-item">
+                <img
+                  class="about__company-image"
+                  src="../Assets/images/autoIcon/Mazda.png"
+                  alt="Mazda"
+                />
+                <p class="about__company-name">Mazda</p>
+              </li>
+              <li class="about__company-item">
+                <img
+                  class="about__company-image"
+                  src="../Assets/images/autoIcon/Mitsubishi.png"
+                  alt="Mitsubishi"
+                />
+                <p class="about__company-name">Mitsubishi</p>
+              </li>
+              <li class="about__company-item">
+                <img
+                  class="about__company-image"
+                  src="../Assets/images/autoIcon/Nissan.png"
+                  alt="Nissan"
+                />
+                <p class="about__company-name">Nissan</p>
+              </li>
+              <li class="about__company-item">
+                <img
+                  class="about__company-image"
+                  src="../Assets/images/autoIcon/Ravon.png"
+                  alt="Ravon"
+                />
+                <p class="about__company-name">Ravon</p>
+              </li>
+              <li class="about__company-item">
+                <img
+                  class="about__company-image"
+                  src="../Assets/images/autoIcon/Renault.png"
+                  alt="Renault"
+                />
+                <p class="about__company-name">Renault</p>
+              </li>
+              <li class="about__company-item">
+                <img
+                  class="about__company-image"
+                  src="../Assets/images/autoIcon/Skoda.png"
+                  alt="Skoda"
+                />
+                <p class="about__company-name">Skoda</p>
+              </li>
+              <li class="about__company-item">
+                <img
+                  class="about__company-image"
+                  src="../Assets/images/autoIcon/Suzuki.png"
+                  alt="Suzuki"
+                />
+                <p class="about__company-name">Suzuki</p>
+              </li>
+              <li class="about__company-item">
+                <img
+                  class="about__company-image"
+                  src="../Assets/images/autoIcon/Volkswagen.png"
+                  alt="Volkswagen"
+                />
+                <p class="about__company-name">Volkswagen</p>
+              </li>
+              <li class="about__company-item">
+                <img
+                  class="about__company-image"
+                  src="../Assets/images/autoIcon/UAZ.png"
+                  alt="UAZ"
+                />
+                <p class="about__company-name">UAZ</p>
+              </li>
+              <li class="about__company-item">
+                <img
+                  class="about__company-image"
+                  src="../Assets/images/autoIcon/Toyota_EU 1.png"
+                  alt="Toyota_EU"
+                />
+                <p class="about__company-name">Toyota</p>
+              </li>
+              <li class="about__company-item">
+                <img
+                  class="about__company-image"
+                  src="../Assets/images/autoIcon/FAW.png"
+                  alt="FAW"
+                />
+                <p class="about__company-name">FAW</p>
+              </li>
+              <li class="about__company-item">
+                <img
+                  class="about__company-image"
+                  src="../Assets/images/autoIcon/Foton.png"
+                  alt="Foton"
+                />
+                <p class="about__company-name">Foton</p>
+              </li>
+              <li class="about__company-item">
+                <img
+                  class="about__company-image"
+                  src="../Assets/images/autoIcon/Omoda.png"
+                  alt="Omoda"
+                />
+                <p class="about__company-name">Omoda</p>
+              </li>
+              <li class="about__company-item">
+                <img
+                  class="about__company-image"
+                  src="../Assets/images/autoIcon/Moskvish.png"
+                  alt="Moskvish"
+                />
+                <p class="about__company-name">Moskvish</p>
+              </li>
+              <li class="about__company-item">
+                <img
+                  class="about__company-image"
+                  src="../Assets/images/autoIcon/Jetta.png"
+                  alt="Jetta"
+                />
+                <p class="about__company-name">Jetta</p>
+              </li>
+
+              <li class="about__company-item item-width">
+                <img
+                  class="about__company-image"
+                  src="../Assets/images/autoIcon/Tank.png"
+                  alt=""
+                />
+                <p class="about__company-name">Tank</p>
+              </li>
+              <li class="about__company-item item-width">
+                <img
+                  class="about__company-image"
+                  src="../Assets/images/autoIcon/BAIC.png"
+                />
+                <p class="about__company-name">BAIC</p>
+              </li>
+              <li class="about__company-item item-width"></li>
+              <div class="list__button">
+                <button
+                  id="text"
+                  class="about__company-mobile"
+                  onclick="changeText()"
+                >
+                  Показать еще
+                </button>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="offers offers__color">
+        <div class="container">
+          <h2 class="offers__title">Лучшие предложения</h2>
+          <ul class="cars__list">
+            <li class="cars__item">
+              <a class="cars__link" href="carCard.html">
+                <img
+                  class="car__image"
+                  src="../Assets/images/auto/CheryTiggo.png"
+                  alt="CheryTiggo"
+                />
+
+                <h3 class="car__model">Chery Tiggo 7 Pro</h3>
+                <h4 class="car__minprice">Минимальная цена</h4>
+                <h4 class="car__price">от 982 900 ₽</h4>
+                <h4 class="car__payment">Платеж от 11 726 ₽/мес.</h4>
+              </a>
+
+              <button class="car__offer modal-btn">Получить предложение</button>
+            </li>
+            <li class="cars__item">
+              <a class="cars__link" href="carCard.html">
+                <img
+                  class="car__image"
+                  src="../Assets/images/auto/ExeedTXLNew.png"
+                  alt="CheryTiggo"
+                />
+
+                <h3 class="car__model">Chery Tiggo 7 Pro</h3>
+                <h4 class="car__minprice">Минимальная цена</h4>
+                <h4 class="car__price">от 982 900 ₽</h4>
+                <h4 class="car__payment">Платеж от 11 726 ₽/мес.</h4>
+              </a>
+              <button class="car__offer modal-btn">Получить предложение</button>
+            </li>
+            <li class="cars__item">
+              <a class="cars__link" href="carCard.html">
+                <img
+                  class="car__image"
+                  src="../Assets/images/auto/HavalNew.png"
+                  alt="CheryTiggo"
+                />
+
+                <h3 class="car__model">Chery Tiggo 7 Pro</h3>
+                <h4 class="car__minprice">Минимальная цена</h4>
+                <h4 class="car__price">от 982 900 ₽</h4>
+                <h4 class="car__payment">Платеж от 11 726 ₽/мес.</h4>
+              </a>
+              <button class="car__offer modal-btn">Получить предложение</button>
+            </li>
+            <li class="cars__item">
+              <a class="cars__link" href="carCard.html">
+                <img
+                  class="car__image"
+                  src="../Assets/images/auto/MitsubishiNew.png"
+                  alt="CheryTiggo"
+                />
+
+                <h3 class="car__model">Chery Tiggo 7 Pro</h3>
+                <h4 class="car__minprice">Минимальная цена</h4>
+                <h4 class="car__price">от 982 900 ₽</h4>
+                <h4 class="car__payment">Платеж от 11 726 ₽/мес.</h4>
+              </a>
+              <button class="car__offer modal-btn">Получить предложение</button>
+            </li>
+            <li class="cars__item">
+              <a class="cars__link" href="carCard.html">
+                <img
+                  class="car__image"
+                  src="../Assets/images/auto/CheryTiggo.png"
+                  alt="CheryTiggo"
+                />
+
+                <h3 class="car__model">Chery Tiggo 7 Pro</h3>
+                <h4 class="car__minprice">Минимальная цена</h4>
+                <h4 class="car__price">от 982 900 ₽</h4>
+                <h4 class="car__payment">Платеж от 11 726 ₽/мес.</h4>
+              </a>
+              <button class="car__offer modal-btn">Получить предложение</button>
+            </li>
+            <li class="cars__item">
+              <a class="cars__link" href="carCard.html">
+                <img
+                  class="car__image"
+                  src="../Assets/images/auto/ExeedTXLNew.png"
+                  alt="CheryTiggo"
+                />
+
+                <h3 class="car__model">Chery Tiggo 7 Pro</h3>
+                <h4 class="car__minprice">Минимальная цена</h4>
+                <h4 class="car__price">от 982 900 ₽</h4>
+                <h4 class="car__payment">Платеж от 11 726 ₽/мес.</h4>
+              </a>
+              <button class="car__offer modal-btn">Получить предложение</button>
+            </li>
+            <li class="cars__item">
+              <a class="cars__link" href="carCard.html">
+                <img
+                  class="car__image"
+                  src="../Assets/images/auto/HavalNew.png"
+                  alt="CheryTiggo"
+                />
+
+                <h3 class="car__model">Chery Tiggo 7 Pro</h3>
+                <h4 class="car__minprice">Минимальная цена</h4>
+                <h4 class="car__price">от 982 900 ₽</h4>
+                <h4 class="car__payment">Платеж от 11 726 ₽/мес.</h4>
+              </a>
+              <button class="car__offer modal-btn">Получить предложение</button>
+            </li>
+            <li class="cars__item">
+              <a class="cars__link" href="carCard.html">
+                <img
+                  class="car__image"
+                  src="../Assets/images/auto/MitsubishiNew.png"
+                  alt="CheryTiggo"
+                />
+
+                <h3 class="car__model">Chery Tiggo 7 Pro</h3>
+                <h4 class="car__minprice">Минимальная цена</h4>
+                <h4 class="car__price">от 982 900 ₽</h4>
+                <h4 class="car__payment">Платеж от 11 726 ₽/мес.</h4>
+              </a>
+              <button class="car__offer modal-btn">Получить предложение</button>
+            </li>
+            <li class="cars__item">
+              <a class="cars__link" href="carCard.html">
+                <img
+                  class="car__image"
+                  src="../Assets/images/auto/CheryTiggo.png"
+                  alt="CheryTiggo"
+                />
+
+                <h3 class="car__model">Chery Tiggo 7 Pro</h3>
+                <h4 class="car__minprice">Минимальная цена</h4>
+                <h4 class="car__price">от 982 900 ₽</h4>
+                <h4 class="car__payment">Платеж от 11 726 ₽/мес.</h4>
+              </a>
+              <button class="car__offer modal-btn">Получить предложение</button>
+            </li>
+            <li class="cars__item">
+              <a class="cars__link" href="carCard.html">
+                <img
+                  class="car__image"
+                  src="../Assets/images/auto/ExeedTXLNew.png"
+                  alt="CheryTiggo"
+                />
+
+                <h3 class="car__model">Chery Tiggo 7 Pro</h3>
+                <h4 class="car__minprice">Минимальная цена</h4>
+                <h4 class="car__price">от 982 900 ₽</h4>
+                <h4 class="car__payment">Платеж от 11 726 ₽/мес.</h4>
+              </a>
+              <button class="car__offer modal-btn">Получить предложение</button>
+            </li>
+            <li class="cars__item">
+              <a class="cars__link" href="carCard.html">
+                <img
+                  class="car__image"
+                  src="../Assets/images/auto/HavalNew.png"
+                  alt="CheryTiggo"
+                />
+
+                <h3 class="car__model">Chery Tiggo 7 Pro</h3>
+                <h4 class="car__minprice">Минимальная цена</h4>
+                <h4 class="car__price">от 982 900 ₽</h4>
+                <h4 class="car__payment">Платеж от 11 726 ₽/мес.</h4>
+              </a>
+              <button class="car__offer modal-btn">Получить предложение</button>
+            </li>
+            <li class="cars__item">
+              <a class="cars__link" href="carCard.html">
+                <img
+                  class="car__image"
+                  src="../Assets/images/auto/MitsubishiNew.png"
+                  alt="CheryTiggo"
+                />
+
+                <h3 class="car__model">Chery Tiggo 7 Pro</h3>
+                <h4 class="car__minprice">Минимальная цена</h4>
+                <h4 class="car__price">от 982 900 ₽</h4>
+                <h4 class="car__payment">Платеж от 11 726 ₽/мес.</h4>
+              </a>
+              <button class="car__offer modal-btn">Получить предложение</button>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="search">
+        <div class="container">
+          <nav class="search__nav">
+            <ul class="search__list">
+            
+              <li class="search__item">
+                <a href="stock.html" class="search__link">Акции</a>
+              </li>
+              <li class="search__item">
+                <a href="#" class="search__link">Автокредит</a>
+              </li>
+              <li class="search__item">
+                <a href="contacts.html" class="search__link">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <div class="container">
+          <div class="footer__wrapper">
+
+            <h3 class="AVTO">Автоцентр</h3>
+
+            <address class="footer__address">
+              <div class="footer__location">
+                <svg class="footer__location-icon">
+                  <use href="../Assets/sprites.svg#footer__location-icon"></use>
+                </svg>
+                <p class="footer__location-info">
+                  г. Москва, Кронштвдский бульвар 37Б
+                </p>
+              </div>
+
+              <div class="footer__number">
+                <a href="tel:+78122238009">
+                  <svg class="footer__number-icon">
+                    <use href="../Assets/sprites.svg#header__number-icon"></use>
+                  </svg>
+                </a>
+
+                <a class="footer__number-link" href="tel:+78122238009"
+                  >+7 (928) 862-72-39</a
+                >
+              </div>
+            </address>
+
+            <button class="button button-size modal-btn" type="button">
+              Обратный звонок
+            </button>
+          </div>
+
+          <div class="footer__info">
+            <ul class="footer__info-list">
+              <li class="footer__list-item">
+               Здравствуйте! Мы - ученики колледжа информатики и программирования, создали этот сайт с целью его защиты.
+              </li>
+              <li class="footer__list-item">
+                Обращаем Ваше внимание на то, что данный сайт носит исключительно информационный характер. Сайт был сделан учениками 1 ИСИП-723 Смирновым Вадимом и Туаевым Авраамом.
+
+              </li>
+             
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="modal">
+      <div class="modal-content">
+        <svg class="modal__close">
+          <use href="../Assets/sprites.svg#modal__close"></use>
+        </svg>
+        <div class="modal__wrapper">
+          <form class="modal__form">
+            <div class="modal__form-text">
+              <h2 class="modal__form-title">У Вас остались вопросы?</h2>
+              <h3 class="modal__form-subtitle">
+                мы Вам перезвоним в ближайшее время.
+              </h3>
+            </div>
+
+            <div class="modal__form-inputs">
+              <input class="modal__form-input" placeholder="ФИО" type="text" />
+              <input
+                class="modal__form-input form__input-number"
+                placeholder="+7 (___) ___-__-__"
+                type="tel"
+              />
+            </div>
+
+            <div class="modal__form-checkboxs">
+              <div class="modal__form-checkbox1">
+                <input
+                  class="modal__form-checkbox"
+                  type="checkbox"
+                  id="pers10"
+                />
+                <label class="modal__form-checkbox-text" for="pers10"
+                  >Согласен с политикой обработки персональных данных</label
+                >
+              </div>
+
+              <div class="modal__form-checkbox2">
+                <input
+                  class="modal__form-checkbox"
+                  type="checkbox"
+                  id="pers11"
+                />
+                <label class="modal__form-checkbox-text" for="pers11"
+                  >Являюсь гражданином РФ</label
+                >
+              </div>
+            </div>
+
+            <button class="modal__form-button" type="button">Отправить</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="../App.js"></script>
+    <script src="../About.js"></script>
+  </body>
+</html>
